@@ -8,6 +8,13 @@ char infix[MAX];
 char Postfix[MAX];
 int top = -1;
 
+int Empty(){
+if (top == -1) 
+  {
+    return -1;
+  }
+}
+
 int main(){
   
 }
