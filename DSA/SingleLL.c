@@ -195,7 +195,7 @@ int main()
  // countOfNode(start);
  // DisplayAllElementInLL(start);
    while (1) 
-  { printf(" Enter which operation you want to perform \n");
+  { printf("\n Enter which operation you want to perform \n");
     printf("\n 1.Display \n 2.Count Node \n 3.Insert New Node \n 4.Reverse Whole List \n 5.Delete Node \n 6.Quite \n");
     scanf("%d",&choise);
     switch (choise) {
