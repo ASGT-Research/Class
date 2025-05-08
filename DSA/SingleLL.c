@@ -24,6 +24,8 @@ void countOfNode(struct Node *start)
 
 void DisplayAllElementInLL(struct Node *start)
 { struct Node *ptr = start;
+  //printf("%d\n",ptr);
+  //printf("%d\n",*ptr);
   if (ptr == NULL) 
   {
     printf("\n List is allready empty\n");
