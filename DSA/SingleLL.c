@@ -50,7 +50,7 @@ struct Node* Insert_Biginning(struct Node **start,int data){
  return start;}
 
 
-void Insert_In_Betwern(struct Node *start,int data ,int pos)
+void Insert_In_Betwern(struct Node *start, int data ,int pos)
 {
   struct Node *ptr = start;
   
@@ -58,7 +58,7 @@ void Insert_In_Betwern(struct Node *start,int data ,int pos)
   ptr2->info = data ;
   ptr2->add = NULL;
   
-  pos--;
+  //pos--;
   while (pos != 1) 
   {
     ptr = ptr->add;

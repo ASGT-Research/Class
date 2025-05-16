@@ -55,12 +55,12 @@ struct Node AddToEnd(struct Node **start,int data )
   temp->badd= tp;
 }
 
-struct Node AddToPos(struct Node **start,int data,int position )
+/*struct Node AddToPos(struct Node **start,int data,int position )
 {
  struct Node newP = NULL;
  struct Node temp = *start;
  struct Node temp2 = NULL;
-  newp = AddToEmpty(newP,data);
+  newP = AddToEmpty(newP,data);
   while (position != 1)
   {
     temp =temp->fadd;
@@ -79,6 +79,14 @@ struct Node AddToPos(struct Node **start,int data,int position )
    newP->badd = temp;
   }
 
+}*/
+
+struct Node DeleteFront(struct Node *start)
+{
+  struct Node temp = *start;
+  *start = temp->fadd;
+  temp->fadd->badd = NULL;
+  free(temp);
 }
 
 
@@ -94,4 +102,5 @@ int main()
   AddToBeg(&start,20);
   AddToEnd(&start,30);
   Display(start);
+  DeleteFront(start);
 }
