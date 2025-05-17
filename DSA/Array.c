@@ -31,7 +31,7 @@ int BinarySearch(int number[],int key){
       return mid;
     }
     if (number[mid] < key) {
-      start = mid+1;
+      start = mid+1; 
     }else {end =mid-1;
     }
   }
@@ -46,6 +46,13 @@ int ReverseOrder(int number[]){
   for (int j=MAX-1;j>=0;j--) {
     printf("%d" ,number[j]); }
 }
+
+int insert(int number[],int TEle= MAX,int pos,int data )
+{ if (MAX ==) {
+}
+
+}
+
 int main()
 {   int number[MAX];
     int key ;
