@@ -47,11 +47,12 @@ int ReverseOrder(int number[]){
     printf("%d" ,number[j]); }
 }
 
-int insert(int number[],int TEle= MAX,int pos,int data )
+/* int insert(int number[],int TEle= MAX,int pos,int data )
+
 { if (MAX ==) {
 }
 
-}
+}*/
 
 int main()
 {   int number[MAX];
