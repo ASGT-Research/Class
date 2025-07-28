@@ -2,5 +2,13 @@
 int main()
 {
   printf("%lu\n",sizeof(int));
-  return 0;;
+  char a = 'a';
+  switch (a) {case 'a': printf("hello");
+                        break;
+              default:printf("worng");
+               break;
+                         
+  }
+  return 0;
+
 }
