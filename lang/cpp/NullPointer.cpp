@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
+   printf("In computing, a null pointer or null reference is a value saved for indicating that the pointer or reference does not refer to a valid object\n");
   int *ptr  ;
   cout << *ptr << endl;
 

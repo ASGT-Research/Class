@@ -1,14 +1,7 @@
-#include <stdio.h>
-void main(){
-  int a,b,c;
-  a=5;
-  b=4;
-  c= a+++b;
-  printf("%d\n",c);
-  c= a + ++b;
-  printf("%d\n",c);
-//  c= a+++++b;
-//printf("%d\n",c);
-
-
+#include<stdio.h>
+int  main()
+{int x;
+  x = printf("Night");
+  printf("%d",x);
+  return 0;
 }
