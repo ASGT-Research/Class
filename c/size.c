@@ -16,7 +16,7 @@ void main(){
 
   ++max1;
   printf("%u\n", max1);
- printf("-------float----");
+ printf("-------float ----\n");
   printf("float : %d\n",sizeof(float));
   printf("double :%d\n",sizeof(double));
   printf("long double : %d\n",sizeof(long double));
